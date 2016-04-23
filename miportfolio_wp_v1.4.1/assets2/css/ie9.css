@@ -1,0 +1,13 @@
+.expertise, .about, .contact{
+-ms-transform: translate(0,-550px);
+transform: translate(0,-550px);
+}
+header.act {
+-ms-transform: translate(0px, 550px);
+transform: translate(0px, 550px);
+}
+.expertise.act, .contact.act, .about.act{
+-ms-transform: translate(0, 0);
+transform: translate(0, 0);
+}
+

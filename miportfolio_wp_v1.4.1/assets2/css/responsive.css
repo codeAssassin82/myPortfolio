@@ -1,0 +1,456 @@
+@charset "utf-8";
+
+
+/* Mediaqueries  */
+
+
+@media only screen and (max-width: 1750px) {
+header li a {
+    display: block;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    min-height: 100px;
+    padding-top: 35px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0s;
+}
+}
+@media only screen and (max-width: 1024px) {
+
+.hover-effect:hover .menu-overlay {
+	display:none;
+}
+
+.vimeo-info-hr {
+    border-top: 1px solid #e1e1e1;
+    width: 241px;
+}
+.btn-effect:after{
+	display:none;
+}
+.modal-body{
+	overflow-y:auto !important;
+	padding:0;
+	}
+.padding-left0{
+	padding-left:15px;
+}
+.padding-right{
+	padding-right:15px;
+}
+.black-close{
+	right:5px;
+	top:5px;
+}
+.cont-detail div {
+	text-align:center;
+	font-size:1.3em;
+	float:none;
+	color:#32303c;
+    margin-left: 3px;
+	width:100%;
+}
+#field_edit{
+	padding-top:35px;
+}
+
+.inp-message {
+    height: 71px;
+}
+#send_btn{
+	margin-top:65px;
+}
+#expertise_intro h4{
+	padding:0;
+}
+.btn-effect-resume:after{
+	display:none;
+}
+.facebook span:hover{
+	background:inherit;
+}
+
+.tweeter span:hover{
+	background:inherit;
+}
+
+.linkedin span:hover{
+	background:inherit;
+}
+
+.dribble span:hover{
+	background:inherit;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+body {
+    font-size: 73%;
+}
+.vimeo-info-hr {
+    width: 162px;
+}
+
+header {
+     letter-spacing: 0.1em;
+}
+
+.icons-edit {
+    height: 60px;
+    padding: 0;
+    padding-top: 18px;
+    width: 60px;
+	font-size:2.2em;
+}
+.icon-tag {
+    letter-spacing: 0.1em;
+}
+.icons-row-1 {
+    padding: 112px 0 0;
+}
+#sec_2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container{
+	width:100%;
+}
+#thumb-tray{
+	display:none;
+}
+
+.slider-info {
+	top: 13px;  
+}
+.slideshow nav span.nav-prev, .slideshow nav span.nav-next, .slideshow nav .close{
+	color:#000;
+}
+
+.vbox-close{
+	top:6px;
+}
+
+.vbox-info{
+	top:10px;
+}	
+.slide_page .full-inner {
+	display:block;
+	width: 100%;
+	min-height: inherit;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+.show-panel{
+	display:none;
+}
+
+header li a {
+	font-size: 1em;
+	min-height: 81px;
+	padding-top: 27px;
+}
+
+#image_info1{
+	margin-bottom:30px;
+}
+.image-info{
+	padding-left:0;
+}
+.vimeo-info-hr{
+	width:100%;
+}
+.slideshow nav span.nav-close{
+	top:9px;
+
+}
+.social-icon {
+    min-height: 137.5px;
+    padding: 58px 0 0;
+}
+.facebook {
+    border-right: 0 none;
+}
+.linkedin {
+    border-bottom: 1px solid #c0bfbc;
+	border-right:0 none;
+}
+.landing-text-pos {
+    top: 35%;
+}
+
+.landing-pname {
+    font-size: 4em;
+}
+
+.landing-intro {
+    font-size: 1.5em;
+}
+
+.icons-row-1 {
+	width:50%;
+	min-height:120px;
+	padding:0;
+}
+.icons-row-2 {
+	width:50%;
+	min-height:120px;
+	padding:0;
+}
+
+.icon-tag {
+    font-size: 0.9em;
+}
+.expertise-icon {
+    padding: 53px 0 0;
+}
+.downld-resume {
+    font-size: 1em;
+    width: 193px;
+}
+.portfolio {
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+#sec_2{
+	padding-left:10px;
+	padding-right:10px;
+}
+.thumb_title.notag{
+	display:none;
+}
+.show-on-mobile {
+	display:block;
+}
+.show-on-desktop, .show-on-desktop.img-logo {
+	display:none;
+}
+.facebook-line,.twitter-line,.linkedin-line,.dribble-line {
+    display:none;
+}
+.icon-facebook,.icon-twitter,.icon-linkedin,.icon-dribbble {
+   font-size:2.5em;
+}
+.icon-briefcase,.icon-ribbon,.icon-profile-male,.icon-envelope,.icon-circle-compass {
+	font-size:2em;
+}
+
+.contact .close{
+	top:10px;
+	right:10px;
+}
+#send_btn{
+	margin-top: 39px;
+}
+.email-sec {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+}
+@media only screen and (max-width: 568px) {
+#field_edit {
+    padding-top: 48px;
+}
+.tabel-cell {
+    padding-top: 52px;
+    vertical-align: top;
+}
+.exp-title {
+    padding-top: 69px;
+}
+.landing-pname {
+    font-size: 3em;
+}
+#title_hr{
+	width:50px;
+}
+.landing-intro {
+    margin-top: 17px;
+}
+.small-head {
+    min-height: 66px;
+    padding-top: 21px;
+}
+
+
+}
+
+@media only screen and (max-width: 567px){
+header li a:hover {
+    letter-spacing: 0;
+}
+header li a {
+    min-height: 65px;
+    padding-top: 20px;
+}
+
+.line-effect span{
+	padding:0.1em;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+.intro {
+    font-size: 1.6em;
+}
+.landing-pname {
+    font-size: 2.5em;
+}
+.landing-intro {
+    font-size: 1.4em;
+}
+
+.downld-resume {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    width: 165px;
+}
+
+}
+
+@media only screen and (max-width: 384px){
+
+.contact-info a {
+    color: #000;
+    margin-left: 5px;
+    
+}
+
+.cont-detail a span {
+   text-decoration: underline;
+}
+
+.cont-detail span {
+    display: block;
+    float: left;
+}
+
+.tabel-cell {
+    padding-top: 111px;
+}
+.icons-edit {
+    font-size: 2em;
+    height: 50px;
+    width: 50px;
+	padding: 13px 0 0;
+}
+.icon-tag {
+    font-size: 0.8em;
+}
+.exp-title {
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+}
+.expertise-detail {
+	width:100%;
+	height: 275px;
+}
+.expertise-detail hr {
+	width:200px;
+}
+.exp-title {
+    padding-top: 47px;
+}
+.expertise-icon {
+	height: 275px;
+	width:100%;
+}
+.icons-row-1,.icons-row-2 {
+   width: 25%;
+}
+
+.info {
+    font-size: 1.2em;
+}
+.social-icons {
+    font-size: 1.1em;
+}
+.cont-detail div {
+    font-size: 1.2em;
+}
+
+#send_btn {
+    height: 41px;
+    width: 132px;
+}
+
+.expertise .close{
+	color:#000;
+	top:6px;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+.contact-form {
+	padding:0;
+}
+#field_edit {
+	padding-left:0;
+}
+
+.expertise-icon {
+    padding: 30px 0 0;
+}
+hr {
+	 margin-bottom:9px;
+}
+.icon-tag {
+    font-size: 0.75em;
+}
+.contact .close{
+	right:6px;
+}
+}
+
+@media only screen and (max-width: 240px){
+ .contact-form div {
+	padding-left:0;
+}
+#field_edit {
+	padding-left:20px;
+}
+hr {
+	 margin:0;
+}
+.exp-title {
+    font-size: 1.2em;
+}
+.info {
+    font-size: 1.1em;
+}
+.icon-tag {
+    font-size: 0.6em;
+}
+#title_hr {
+    width: 211px;
+}
+.landing-pname {
+    font-size: 2em;
+}
+.exp-title {
+    padding-top: 12px;
+}
+.icons-edit {
+    font-size: 1.5em;
+    height: 40px;
+    padding: 13px 0 0;
+    width: 40px;
+}
+.intro {
+	padding: 0;
+}
+
+.about .close {
+	   right:10px;
+}
+
+.expertise .close{
+	color:#000;
+}
+
+}
